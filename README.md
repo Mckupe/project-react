@@ -1,3 +1,7 @@
+# АПИ ИНСТАГРАМА НЕ РАБОТАЕТ ИЗ-ЗА САНКЦИЙ, ТАК ЧТО НУЖНО ВКЛЮЧИТЬ ВПН И ТОКЕН ПОКА-ЧТО МЕНЯЕТСЯ КАЖДЫЙ ЧАС, ВЕДЬ ПРИЛОЖЕНИЕ В БЕТТЕ
+
+# Шаблон сайта:
+
 ![Иллюстрация к проекту](https://github.com/Mckupe/project-react/blob/main/SAMPLE.jpg)
 
 # Getting Started with Create React App
