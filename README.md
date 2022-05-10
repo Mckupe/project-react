@@ -1,3 +1,5 @@
+# Шаблон сайта:
+
 ![Иллюстрация к проекту](https://github.com/Mckupe/project-react/blob/main/SAMPLE.jpg)
 
 # Getting Started with Create React App
