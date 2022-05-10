@@ -1,35 +1,35 @@
-import './Instagramm Api';
+import {postData} from './feedback Api';
 
 const Main = () => {
     return(
-        <div class="App">        
-            <header class="App-header"> 
-                <div class="top-App-header">
-                    <a href="/test" class="Logo">NELLY</a>
-                    <a href="/" class="Logo-bottom">crystal</a>
+        <div className="App">        
+            <header className="App-header"> 
+                <div className="top-App-header">
+                    <a href="/test" className="Logo">NELLY</a>
+                    <a href="/" className="Logo-bottom">crystal</a>
                 </div>
-                <div class="bottom-App-header">
-                    <div class="left">
-                        <a href="/" class="link">Броши</a>
-                        <a href="/" class="link">Ук. в волосы</a>
-                        <a href="/" class="link">Ожерелья</a>
-                        <a href="/" class="link">Браслет</a>
+                <div className="bottom-App-header">
+                    <div className="left">
+                        <a href="/" className="link">Броши</a>
+                        <a href="/" className="link">Ук. в волосы</a>
+                        <a href="/" className="link">Ожерелья</a>
+                        <a href="/" className="link">Браслет</a>
                     </div>
-                    <div class="right">
-                        <a href="/" class="link">Поиск</a>
-                        <a href="/" class="link">Корзина</a>
+                    <div className="right">
+                        <a href="/" className="link">Поиск</a>
+                        <a href="/" className="link">Корзина</a>
                     </div>
                 </div>         
             </header>
 
-            <main class='content'>
-                <section class="about">
-                    <div class="background"></div>
-                    <div class="about-content">
-                        <img class="foto1" src="./foto/1.jpg" alt="Первое фото"/>
-                        <img class="foto2" src="./foto/2.png" alt="Второе фото"/>
-                        <img class="foto3" src="./foto/3.JPG" alt="Третье фото"/>
-                        <div class="text1">
+            <main className='content'>
+                <section className="about">
+                    <div className="background"></div>
+                    <div className="about-content">
+                        <img className="foto1" src="./foto/1.jpg" alt="Первое фото"/>
+                        <img className="foto2" src="./foto/2.png" alt="Второе фото"/>
+                        <img className="foto3" src="./foto/3.JPG" alt="Третье фото"/>
+                        <div className="text1">
                             <h1>ABOUT US</h1>
                             <p>testtesttesttesttesttestettesttesttestetestettesttest</p>
                             <p>test testtesttesttesttestettesttesttestetestettesttesttest</p>
@@ -38,91 +38,92 @@ const Main = () => {
                     </div>            
                 </section>
 
-                <section class="shop">
-                    <div class="Block">
-                        <div class="material">
+                <section className="shop">
+                    <div className="Block">
+                        <div className="material">
                         </div>                  
-                        <div class="tovar">  
+                        <div className="tovar">  
                             <i>SHOP</i>                                    
                         </div>
-                        <div class="material">
+                        <div className="material">
                         </div>
                     </div>
-                    <div class="block">
-                        <div class="material">
+                    <div className="block">
+                        <div className="material">
                             <h1>Bronze</h1>
                         </div>                  
-                        <div class="tovar bordered"> 
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>  
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>       
+                        <div className="tovar bordered"> 
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>  
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>       
                         </div>
-                        <div class="material bordered"></div>
+                        <div className="material bordered"></div>
                     </div>
-                    <div class="block">
-                        <div class="material bordered">
+                    <div className="block">
+                        <div className="material bordered">
                             <h1>Нень</h1>
                             <h1>Vlasovdap dolinsky</h1>
                         </div>
-                        <div class="tovar bordered"> 
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>  
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>                     
+                        <div className="tovar bordered"> 
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>  
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>                     
                         </div>
-                        <div class="material"></div>
+                        <div className="material"></div>
                     </div>
-                    <div class="block">
-                        <div class="material">
+                    <div className="block">
+                        <div className="material">
                             <h1>Sperky</h1>
                         </div>               
-                        <div class="tovar">  
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>  
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>                   
+                        <div className="tovar">  
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>  
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater1.png" alt="Первый материал"/></a>                   
                         </div>
-                        <div class="material"></div>
+                        <div className="material"></div>
                     </div>
-                    <div class="block">
-                        <div class="material">
+                    <div className="block">
+                        <div className="material">
                         </div>               
-                        <div class="tovar"> 
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>  
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
-                            <a href="/"><img class="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>                    
+                        <div className="tovar"> 
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>  
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>
+                            <a href="/"><img className="tovarFoto" src="./foto/mater2.png" alt="Первый материал"/></a>                    
                         </div>
-                        <div class="material"></div>
+                        <div className="material"></div>
                     </div>            
-                    <button class="shopButton"> VICE </button>                    
+                    <button className="shopButton"> VICE </button>                    
                 </section>
 
                 <section className="insta">
                 </section>
 
-                <section class="deliver">
+                <section className="deliver">
                     
                 </section>
             </main>
 
-            <footer class='footers'>
-                <i class="contact">Контакawdawт my</i>
-                <p class="questions">SKIBIDWDADWAFAGAWGAGWIPAPAPAP TEST TESTTEST?</p>
-                <p class="textMassage">send us a message you can here</p>
-                <div class="fieldBlock">
+            <footer className='footers'>
+                <i className="contact">Контакawdawт my</i>
+                <p className="questions">SKIBIDWDADWAFAGAWGAGWIPAPAPAP TEST TESTTEST?</p>
+                <p className="textMassage">send us a message you can here</p>
+                <div className="fieldBlock">
                     <p>Name</p>
-                    <input class="inpField"></input>
+                    <input className="inpField"></input>
                     <p>Email</p>
-                    <input class="inpField"></input>
+                    <input className="inpField"></input>
                     <p>Phone</p>
-                    <input class="inpField"></input>
+                    <input className="inpField"></input>
                     <p>Mesage</p>
-                    <textarea class="message"></textarea>
-                </div>
-                <button class="send">Send</button>
+                    <textarea className="message"></textarea>
+                </div>       
+                <button onClick={postData("Сюда вставить URL будующего сервера")} className="send">Send</button>
             </footer>
+            
         </div>
     )
 }

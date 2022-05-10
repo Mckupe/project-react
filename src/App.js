@@ -7,7 +7,7 @@ import {Main} from './pages/Main'
 
 function App() {
   return (
-        <div class="App">             
+        <div className="App">             
             <Routes>
                 <Route exact path="/" element={<Main/>}/>
                 <Route exact path="/test" element={<TestPage/>}/>

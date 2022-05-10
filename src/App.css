@@ -8,7 +8,7 @@
 {
   display:grid; 
   overflow: hidden;
-  grid-template-rows: min-content 6fr min-content; 
+  grid-template-rows: min-content min-content min-content; 
 }
 
 .App-header
