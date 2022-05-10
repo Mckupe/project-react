@@ -1,4 +1,5 @@
-import {postData} from './feedback Api';
+import './Instagramm Api';
+import {postData} from './feedback Api'
 
 const Main = () => {
     return(
@@ -109,7 +110,7 @@ const Main = () => {
 
             <footer className='footers'>
                 <i className="contact">Контакawdawт my</i>
-                <p className="questions">SKIBIDWDADWAFAGAWGAGWIPAPAPAP TEST TESTTEST?</p>
+                <p className="questions">WDADWAFAGAWGAGWIPAPAPAP TEST TESTTEST?</p>
                 <p className="textMassage">send us a message you can here</p>
                 <div className="fieldBlock">
                     <p>Name</p>
@@ -121,12 +122,10 @@ const Main = () => {
                     <p>Mesage</p>
                     <textarea className="message"></textarea>
                 </div>       
-                <button onClick={postData("Сюда вставить URL будующего сервера")} className="send">Send</button>
-            </footer>
-            
+                <button onClick={postData} className="send">Send</button>
+            </footer>         
         </div>
     )
 }
-
 
 export {Main}
